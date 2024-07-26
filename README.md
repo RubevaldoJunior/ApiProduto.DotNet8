@@ -22,7 +22,7 @@ Esta é uma API de Produto criada usando C# e PostgreSQL, seguindo os padrões R
 
 ### Pré-requisitos
 
-- .NET 6 SDK
+- .NET 8 SDK
 - PostgreSQL
 
 ### Configuração do Banco de Dados
