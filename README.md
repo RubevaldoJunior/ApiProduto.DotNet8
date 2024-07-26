@@ -45,4 +45,12 @@ Esta é uma API de Produto criada usando C# e PostgreSQL, seguindo os padrões R
   }
 }
 ```
-4. 
+4. Abra o projeto no terminal
+   ```
+   cd ApiProduto
+   ´´´
+5. Adicione as migrações e atualize o banco de dados:
+   ```
+   dotnet ef migrations add InitialCreate
+   dotnet ef database update
+6. Após finalizar a migração, você pode rodar a API pelo console ou visual studio
