@@ -36,3 +36,13 @@ Esta é uma API de Produto criada usando C# e PostgreSQL, seguindo os padrões R
    ```bash
    git clone https://github.com/seu-usuario/ApiProduto.DotNet8.git
    cd ApiProduto
+2. Abra o projeto no visual studio
+3. Configure a string de conexão no appsettings.json: 
+ ```
+   {
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Database=Produto;Username=seu-usuario;Password=sua-senha"
+  }
+}
+```
+4. 
